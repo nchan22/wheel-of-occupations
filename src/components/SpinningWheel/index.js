@@ -1,10 +1,13 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "./style.css"
+import { Container } from "react-dom";
 
 function SpinningWheel {
     return(
-        <Button id="spin">Spin</Button>
+        <Container>
+            <Button id="spin">Spin</Button>
+        </Container>
     )
            
 }
