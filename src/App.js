@@ -3,7 +3,11 @@ import "./App.css";
 import SpinningWheel from "./components/SpinningWheel";
 
 function App() {
-  return <SpinningWheel />;
+  return (
+    <div>
+      <SpinningWheel />
+    </div>
+  );
 }
 
 export default App;
